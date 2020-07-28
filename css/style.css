@@ -1,0 +1,129 @@
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#main-page-header {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  background-color: white;
+  border-bottom: solid;
+  border-color: gray;
+}
+
+.header-text {
+  font-size: 400%;
+  font-family: 'Inconsolata', monospace;
+}
+
+#left-side {
+  position: absolute;
+  width: 30%;
+  height: 80%;
+  left: 0;
+  bottom: 0;
+  border-right: solid;
+  border-color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.menu-btn-left-side{
+  padding: 10%;
+
+}
+
+#right-side {
+  position: absolute;
+  width: 70%;
+  height: 80%;
+  right: 0;
+  bottom: 0;
+}
+
+#main-content-text {
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  top: 30%;
+  font-family: 'Inconsolata', monospace;
+  font-size: 200%;
+}
+
+#who-I-am-content-text {
+  position: absolute;
+  width: 80%;
+  height: 20%;
+  left: 10%;
+  top: 2%;
+  font-family: 'Inconsolata', monospace;
+  font-size: 200%;
+  
+}
+
+.card-body{
+  font-weight: bold;
+}
+
+#pic-who-I-am-content {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  left: 35%;
+  top: 12%;
+}
+
+#oil-painting-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+
+#oil-painting-content-text {
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  top: 2%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Inconsolata', monospace;
+}
+
+.carousel-content {
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  height: 50%;
+  top: 12%;
+}
+
+#oil-painting-carousel {
+  position: absolute;
+  width: 60%;
+  left: 30%;
+  height: 50%;
+}
+
+#travel-content-text {
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  top: 2%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Inconsolata', monospace;
+}
+
+#travel-carousel {
+  position: absolute;
+  width: 60%;
+  left: 25%;
+  height: 50%;
+}
